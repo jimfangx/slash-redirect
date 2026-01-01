@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Slash Redirect",
+    "version": "1.0",
+    "description": "Redirect bare words like docs/meet to their URLs",
+    "background": {
+        "scripts": ["bg.js"]
+    },
+    "permissions": ["webNavigation", "tabs"],
+    "applications": {
+        "gecko": {
+            "id": "slash-redirect@local"
+        }
+    }
+}

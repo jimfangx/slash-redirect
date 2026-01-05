@@ -8,3 +8,7 @@ Enables `/docs`, `/meet`, etc to work in browsers. Routing table is in `const RO
 
 ## Installation - Firefox
 * `about:debugging#/runtime/this-firefox`, click "This Firefox", click "Load Temporary Add-on", select `manifest.json` in the firefox folder
+
+OR
+
+* You can permanently install unsigned extensions on Developer Edition by changing `xpinstall.signatures.required` to false in `about:config`. Then, install in `about:addons`.
